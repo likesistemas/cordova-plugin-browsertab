@@ -1,4 +1,4 @@
-# cordova-plugin-browsertab
+# likesistemas@cordova-plugin-browsertab
 
 Note: This is not an official Google product.
 
@@ -12,6 +12,12 @@ on Android (including the
 implementation), and
 [SFSafariViewController](https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/)
 on iOS.
+
+## Install
+
+```shell
+cordova plugin add @likesistemas/cordova-plugin-browsertab
+```
 
 ## Usage
 
@@ -56,7 +62,7 @@ Plugin can be customized by providing parameters during installation.
 You can customize i.e. custom tab background color by passing `CUSTOM_TAB_COLOR_RGB` variable in string RGB format:
 
 ```bash
-cordova plugin add cordova-plugin-browsertab --variable CUSTOM_TAB_COLOR_RGB="#ff0000"
+cordova plugin add @likesistemas/cordova-plugin-browsertab --variable CUSTOM_TAB_COLOR_RGB="#ff0000"
 ```
 
 List of available parameters:

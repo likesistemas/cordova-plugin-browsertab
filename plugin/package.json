@@ -1,5 +1,5 @@
 {
-    "name": "cordova-plugin-browsertab",
+    "name": "@likesistemas/cordova-plugin-browsertab",
     "version": "0.2.1",
     "description": "In-app browser tabs for Android and iOS",
     "cordova": {
